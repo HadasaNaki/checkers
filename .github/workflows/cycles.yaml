@@ -20,7 +20,7 @@ jobs:
             - name: Test with pytest
               run: |
                   python -m pytest $(git ls-files '*.py')
-<<<<<<< HEAD
+
     Lint:
         runs-on: ubuntu-latest
         steps:
