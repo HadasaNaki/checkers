@@ -43,3 +43,8 @@ class State(Enum):
             except KeyError:
                 raise ValueError(f"Invalid State value: {value}") from None
         raise ValueError(f"Expected str or State, got {type(value)}")
+
+
+class Colors(Enum):
+    WHITE = "WHITE"
+    BLACK = "BLACK"
